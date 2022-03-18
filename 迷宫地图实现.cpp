@@ -7,7 +7,7 @@
 void show(int(*a)[10]) {
     for (int i = 0; i < 10; i++) {
         for (int j = 0; j < 10; j++) {
-            printf("%d ", a[i][i]);
+            printf("%d ", a[i][j]);
         }
         printf("\n");
     }
